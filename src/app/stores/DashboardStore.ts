@@ -57,7 +57,6 @@ class DashboardStore {
         const products = ['Apple Watch', 'MacBook Pro', 'iPhone 15', 'iPad Air', 'AirPods Pro', 'iMac 24"'];
         const statuses = ['Delivered', 'Pending', 'Cancelled', 'Shipped'] as const;
         const baseChartValues = [20, 40, 60, 80, 100, 80, 60, 40, 20, 40, 60, 80];
-        const monthNames = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'];
 
         // Генерируем данные для каждого месяца
         for (let month = 1; month <= 12; month++) {
